@@ -13,7 +13,7 @@ public class Test {
 		long time1=System.nanoTime();
 		MergeSort.mergesort(array);
 		long time2=System.nanoTime();
-		System.out.println((long)(time2-time1));
+		System.out.println("运行时间："+(long)(time2-time1));
 		
 	}
 }

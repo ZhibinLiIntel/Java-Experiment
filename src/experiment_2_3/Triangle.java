@@ -12,7 +12,7 @@ public class Triangle {
 		this.edge=edge;
 	}
 	void getProperties(){
-		System.out.println("edge"+edge);
+		System.out.println("edge:"+edge);
 	}
 	void printGraphic(){
 		for(int i=0;i<edge;i++){

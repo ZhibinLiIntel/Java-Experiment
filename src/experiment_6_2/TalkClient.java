@@ -33,7 +33,7 @@ public class TalkClient implements ActionListener,Runnable{
 	}
 	public void connect(){
 		try{
-			socket=new Socket("192.168.1.105",8004);
+			socket=new Socket("192.168.1.103",8004);
 			dis=new DataInputStream(socket.getInputStream());
 			dos=new DataOutputStream(socket.getOutputStream());
 		}catch(Exception e){
